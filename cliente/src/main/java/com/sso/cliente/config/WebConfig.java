@@ -29,7 +29,6 @@ public class WebConfig extends WebMvcConfigurerAdapter {
 	        registry.addViewController("/")
 	            .setViewName("forward:/index");
 	        registry.addViewController("/index");
-	        registry.addViewController("/securedPage");
 	    }
 	
 	    @Override

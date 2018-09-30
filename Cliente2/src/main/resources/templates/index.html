@@ -10,9 +10,12 @@
 <body>
 <div class="container">
 	<div class="col-sm-12">
-		<h1>Spring Security SSO Logueado</h1>
-		<a class="btn btn-primary" href="securedPage">Login</a>
+		<h1>Te has logueado en el cliente 2</h1>
 	</div>
-</div>
+	<div class="container">
+		<div class="col-sm-12">
+			Hola, <span th:text="${#authentication.name}">Name</span>
+		</div>
+	</div>
 </body>
 </html>
